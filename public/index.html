@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>freeCodeCamp.org</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <body>
+    <div id="topborder" width="100%">
+      <img id="logo" src="logo.png" alt="FreeCodeCamp LOGO">
+      <div class="search">
+        <form action="#">
+          <input id="input" type="text" placeholder="        Search 9,000+ tutorials" name="search" onmouseover="inputborder()">
+        </form>
+        <div>
+          <img src="search1.png" id="search_icon" height="32px">
+        </div>
+      </div>
+      </div>
+      <div class="icon" id="globe" onclick="toggleLanguageMenu()"> <svg fill="#ffffff" height="32px" width="37px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-46.08 -46.08 604.16 604.16" xml:space="preserve" stroke="#ffffff" stroke-width="12.8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M482.159,136.181c-19.646-37.242-48.721-69.485-84.104-93.256C355.988,14.844,306.866,0,256,0 s-99.988,14.844-142.075,42.938c-35.362,23.758-64.437,56-84.067,93.211C10.324,172.759,0,214.203,0,256 c0,41.797,10.324,83.241,29.84,119.818c19.146,36.303,47.113,67.688,81.006,91.046v0.27h0.394 c1.045,0.717,2.076,1.452,3.132,2.154C156.285,497.23,205.259,512,256,512s99.715-14.77,141.619-42.706 c1.059-0.704,2.094-1.441,3.142-2.16h0.394v-0.27c33.896-23.363,61.861-54.746,80.988-91.014C501.676,339.241,512,297.796,512,256 C512,214.204,501.676,172.759,482.159,136.181z M110.845,447.356c-24.211-18.397-44.777-41.32-60.425-67.315h60.425V447.356z M110.845,364.206H41.673c-15.943-31.32-24.586-64.994-25.706-100.289h94.878V364.206z M110.845,248.082H15.967 c1.12-35.284,9.759-68.951,25.707-100.289h69.172V248.082z M110.845,131.959H50.422c15.599-25.891,36.175-48.83,60.423-67.336 V131.959z M248.082,496.03c-43.356-1.403-85.088-14.318-121.402-37.615v-78.374h121.402V496.03z M248.082,364.206H126.68V263.918 h121.402V364.206z M248.082,248.082H126.68V147.794h121.402V248.082z M248.082,131.959H126.68V53.521 c36.357-23.255,78.082-36.149,121.402-37.551V131.959z M385.32,458.416c-36.308,23.293-78.042,36.211-121.402,37.614V380.041 H385.32V458.416z M385.32,364.206H263.918V263.918H385.32V364.206z M385.32,248.082H263.918V147.794H385.32V248.082z M385.32,131.959H263.918V15.97c43.327,1.402,85.056,14.299,121.402,37.55V131.959z M401.155,64.623 c24.249,18.508,44.817,41.439,60.422,67.336h-60.422V64.623z M401.155,147.794h69.172c15.944,31.32,24.587,64.994,25.707,100.289 h-94.878V147.794z M401.155,447.355v-67.314h60.427C445.944,406.023,425.375,428.949,401.155,447.355z M470.326,364.206h-69.172 V263.918h94.878C494.913,299.2,486.274,332.868,470.326,364.206z"></path> </g> </g> </g></svg> </div>
+      <p height="26px" width="34px" class="rectangular-icon"> Menu </p>
+      <p height="26px" width="34px" class="rectangular-icon2"> Sign In </p>
+      <div id="languagemenu"><span id="language">English<br></span><span id="language">Espanol<br></span><span id="language">Chinese<br></span><span id="language">Chinese-Traditional<br></span><span id="language">Italian<br></span><span id="language">Portugese<br></span><span id="language">Ukranian<br></span><span id="language">Japanese<br></span><span id="language">German<br></span><span id="language">Swahili<br></span></div>
+      <h1 class="bodytext"> Learn to code — for free. <br> Build projects. <br> Earn certifications.</h1>
+      <h2 id="text1"> Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten <br> jobs at tech companies including:</h2>
+      <div id="faang">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i class="fa fa-apple" style="font-size: 32px; margin-right: 50px; "></i>
+              <i class="fa fa-google" style="font-size: 32px; margin-right: 50px; "></i>
+              <i class="fa fa-windows" style="font-size: 32px; margin-right: 50px; "> <span class="brand-name">Microsoft</span></i>
+              <i class="fa fa-spotify" style="font-size: 32px; margin-right: 50px; "> <span class="brand-name">Spotify</span></i>
+              <i class="fa fa-amazon" style="font-size: 32px; margin-right: 50px; "> <span class="brand-name">Amazon</span></i>
+            </div>
+      <div id="login"> Get started (it's free)</div>
+    </div>
+    <div>
+      <img src="people.png" id="people" height="400px" width="700px">
+    </div>
+    <div id="below_people">
+      <span id="text2">freeCodeCamp students at a local study group in South Korea</span>
+    </div>
+    <div id="citation">
+      <span id="citation_text"> As seen in: </span>
+    </div>
+    <div id="citation_logo"> <img src="citations.png">
+    </div>
+    <h1 id="text3"> Here is what our alumni say about freeCodeCamp: </h1>
+    <div id="alumni">
+      <img src="alumni_1.png" style="margin-bottom: 55px;" width="80%"> <br>
+      <img src="alumni_2.png" style="margin-bottom: 55px;" width="80%"> <br>
+      <img src="alumni_3.png" style="margin-bottom: 55px;" width="80%">
+    </div>
+    <div id="experience1">
+      <span id="e1_text1">Shawn Wang in Singapore <br></span>
+      <span id="e1_text2">Software Engineer at Amazon <br><br></span>
+      <span id="e1_text3">"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. freeCodeCamp changed my life."
+      </span>
+      </div>
+      <div id="experience2">
+        <span id="e2_text1">Sarah Chima in Nigeria <br></span>
+        <span id="e2_text2">Software Engineer at ChatDesk <br><br></span>
+        <span id="e2_text3">"freeCodeCamp was the gateway to my career as a software developer. The well-structured curriculum took my coding knowledge from a total beginner level to a very confident level. It was everything I needed to land my first dev job at an amazing company."</span>
+      </div>
+      <div id="experience3"> 
+        <span id="e3_text1">Emma Bostian in Sweden<br></span>
+        <span id="e3_text2">Software Engineer at Spotify<br><br></span>
+        <span id="e3_text3">"I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify."</span>
+      </div>
+      <div id="login2">Get started (it's free)</div>
+      <div id="text4">Earn free verified certifications with<br>freeCodeCamp's core curriculum:
+      </div>
+      <div class="selectors"><span class="selectors_text" id="s_1">Responsive Web Design Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_2">JavaScript Algorithms and Data Structures (Beta) Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_3">Front End Development Libraries Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_4">Data Visualization Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_5">Relational Database Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_6">Back End Development and APIs Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_7">Quality Assurance Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_8">Scientific Computing with Python (Beta) Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_9"> Data Analysis with Python Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_10">Information Security Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_11">Machine Learning With Python Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_12">College Algebra with Python Certification</span></div>
+      <div id="text5">Learn English for Developers:</div>
+      <div class="selectors"><span class="selectors_text" id="s_13">A2 English for Developers (Beta) Certification</span></div>
+      <div id="text6">Earn free professional certifications:</div>
+      <div class="selectors"><span class="selectors_text" id="s_14">(New) Foundational C# with Microsoft Certification</span></div>
+      <div id="text7">Prepare for the developer interview job<br>search:</div>
+      <div class="selectors"><span class="selectors_text" id="s_15">The Odin Project - freeCodeCamp Remix (Beta)</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_16">Coding Interview Prep</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_17">Project Euler</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_18">Rosetta Code</span></div>
+      <div id="text8">Explore our Legacy Curriculum:</div>
+      <div class="selectors"><span class="selectors_text" id="s_19">Legacy Responsive Web Design Challenges</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_20">JavaScript Algorithms and Data Structures Certification</span></div>
+      <div class="selectors"><span class="selectors_text" id="s_21">Legacy Python for Everybody</span></div>
+      <div id="login3">Get started (it's free)</div>
+      <div id="text9">Frequently asked questions:</div>
+      <div class="questions"><span class="question_text" id="q_1">What exactly is freeCodeCamp?</span></div>
+      <div class="answers"><span class="answer_text" id="a_1">freeCodeCamp is a community of people from all around the world who are learning to code together. We're a <br> 501(c)(3) public charity.</span></div>
+      <div class="questions"><span class="question_text" id="q_2">How will freeCodeCamp help me learn to code?</span></div>
+      <div class="answers"><span class="answer_text" id="a_2">You will learn to code by building dozens of projects, step-by-step, right in your browser, code editor, or mobile <br>app.<br>You will also earn free verified certifications along the way.</span></div>
+      <div class="questions"><span class="question_text" id="q_3">Is freeCodeCamp really free?</span></div>
+      <div class="answers"><span class="answer_text" id="a_3">Yes. Every aspect of freeCodeCamp is 100% free. The courses, the projects, and even the certifications.</span></div>
+      <div class="questions"><span class="question_text">Can freeCodeCamp help me get a job as a software developer?</span></div>
+      <div class="answers"><span class="answer_text">Yes. Every year, thousands of people who join the freeCodeCamp community get their first software developer<br>job.</span></div>
+      <div class="questions"><span class="question_text">What skills will I learn?</span></div>
+      <div class="answers"><span class="answer_text">You will learn the skills most developers use on the job: HTML, CSS, JavaScript, Python, Linux, Git, and SQL, and<br>more. You'll also learn how to use powerful libraries for web development, mobile app development, data science,<br>and artificial intelligence.</span></div>
+      <div class="questions"><span class="question_text">How long does it take to learn all this?</span></div>
+      <div class="answers"><span class="answer_text">freeCodeCamp is self-paced. Realistically, it may take several years of practicing coding to learn these skills well<br>enough to get a job as a software engineer. Don't quit school or your day job until you feel ready.</span></div>
+      <div class="questions"><span class="question_text">How do I get started?</span></div>
+      <div class="answers"><span class="answer_text">If you're a beginner, you should start at the beginning of the freeCodeCamp core curriculum. If you're more<br>advanced, we still recommend starting at the beginning, but you can skip to whatever area you wish.</span></div>
+      <div class="questions"><span class="question_text">How do I earn the free verified certifications?</span></div>
+      <div class="answers"><span class="answer_text">For each certification, you need to build its 5 certification projects, and get all of the project tests to pass to be able<br>to claim your certification.</span></div>
+      <div class="questions"><span class="question_text">I don't see [name of tool] in the freeCodeCamp core curriculum.</span></div>
+      <div class="answers"><span class="answer_text">Aside from the freeCodeCamp core curriculum, We have thousands of free, full-length books, courses, and<br>programming tutorials. We almost certainly teach whatever programming tools you want to learn. Just use the<br>search bar.</span></div>
+      <div class="questions"><span class="question_text" id="message">Happy coding!</span></div>
+
+      <div id="login4">Get started (it's free)</div>
+      <div><span id="coloured_space"></span></div>
+      <div class="bottom"><span class="bottomtext">freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charitable organization<br>(United States Federal Tax Identification Number: 82-0779546).<br><br>Our mission: to help people learn to code for free. We accomplish this by creating<br>thousands of videos, articles, and interactive coding lessons - all freely available to the<br>public.<br><br>Donations to freeCodeCamp go toward our education initiatives, and help pay for<br>servers, services, and staff.<br><br><br></span><span class="bottomtext" id="donation">You can <span id="highlight">make a tax-deductible donation here</span><span>.</span></div>
+      <div><span id="trendingguides">Trending Guides</span></div>
+      <div id="tg"><span class="tg_text">Binary Search in C++<br></span><span class="tg_text">Lambda Sort in Python<br></span><span class="tg_text">Python Print Exception<br></span><span class="tg_text">JS Comparison Operators<br></span><span class="tg_text">Create a Dict in Python<br></span><span class="tg_text">Pip Upgrade<br></span><span class="tg_text">Operators in C<br></span><span class="tg_text">JavaScript Replace<br></span><span class="tg_text">Git Squash Commits<br></span><span class="tg_text">Gradient Descent ML<br></span><span class="tg_text">Print Newline in Python<br></span><span class="tg_text">Create an Array in Java<br></span><span class="tg_text">Static Variables in Java<br></span><span class="tg_text">Python Iterate Over Dict<br></span><span class="tg_text">SQL Where Contains String<br></span></div>
+      <div id="tg"><span class="tg_text2">Binary Search in Java<br></span><span class="tg_text2">List Flatten in Python<br></span><span class="tg_text2">Enhanced Java for-loops<br></span><span class="tg_text2">Python Program Examples<br></span><span class="tg_text2">Python Remove from List<br></span><span class="tg_text2">Undo Git Add<br></span><span class="tg_text2">Dataframe to CSV<br></span><span class="tg_text2">What is R Squared?<br></span><span class="tg_text2">Integer Array in C<br></span><span class="tg_text2">JS Ternary Operator<br></span><span class="tg_text2">Bash Scripting Tutorial<br></span><span class="tg_text2">Trim a String in Python<br></span><span class="tg_text2">What Does => Mean in JS?<br></span><span class="tg_text2">Install Node.js on Ubuntu<br></span><span class="tg_text2">How to Join Lists in Python<br></span></div>
+      <div><span class="mobileapp">Mobile App<br></span><img src="appstore.png" class="mobileapp" id="apple"> <img src="playstore.png" class="mobileapp" id="googleplay" height="61px;"></div>
+      <div id="closing"><span class="closing_text">About</span><span class="closing_text">Alumni Network</span><span class="closing_text">Open Source</span><span class="closing_text">ShopSupport</span><span class="closing_text">Sponsors</span><span class="closing_text">Academic Honesty</span><span class="closing_text">Code of Conduct</span><span class="closing_text">Privacy Policy</span><span class="closing_text">Terms of Service</span><span class="closing_text">Copyright Policy</span></div>
+    </body>
+  <script>
+    function toggleLanguageMenu() {
+      var languageMenu = document.getElementById("language");
+      if (languageMenu.style.display === 'none' || languageMenu.style.display === '') {
+        languageMenu.style.display = 'initial';
+        document.addEventListener('click', closeLanguageMenu);
+      } else {
+        languageMenu.style.display = 'none';
+        document.removeEventListener('click', closeLanguageMenu);
+      }
+    }
+
+    function closeLanguageMenu(event) {
+      var languageMenu = document.getElementById('language');
+      if (!languageMenu.contains(event.target)) {
+        languageMenu.style.display = 'none';
+        document.removeEventListener('click', closeLanguageMenu);
+      }
+    }
+  </script>
+</head>
+</html>
