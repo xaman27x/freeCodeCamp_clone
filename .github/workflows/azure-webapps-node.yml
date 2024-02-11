@@ -24,6 +24,9 @@ jobs:
           npm install
           npm run build --if-present
           
+      - name: Build Release.zip
+        run: zip -r release.zip *
+        
       - name: List contents of the zip file
         run: unzip -l release.zip
         working-directory: ${{ github.workspace }}
